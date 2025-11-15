@@ -9,6 +9,7 @@ public class AllesGut implements ModInitializer {
 	public static final String MOD_ID = "allesgut";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+    // Test
 	@Override
 	public void onInitialize() {
 
