@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "allesgut",
+	"version": "${version}",
+	"name": "Alles Gut",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "KechhaTV @Twitch",
+		"sources": "Incoming."
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/allesgut/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.kechha.allesgut.AllesGut"
+		],
+		"fabric-datagen": [
+			"de.kechha.allesgut.AllesGutDataGenerator"
+		],
+        "client": [
+          "de.kechha.allesgut.AllesGutClient"
+        ]
+	},
+	"mixins": [
+		"allesgut.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
