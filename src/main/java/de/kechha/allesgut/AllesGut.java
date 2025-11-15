@@ -9,12 +9,10 @@ public class AllesGut implements ModInitializer {
 	public static final String MOD_ID = "allesgut";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    // Test Comment LOL
-
 	@Override
 	public void onInitialize() {
 
 		LOGGER.info("Kechha.AllesGut loaded!");
-        LOGGER.info("Kechha.AllesGut loaded!");
+
 	}
 }
