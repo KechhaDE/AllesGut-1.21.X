@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "allesgut:block/vineyard_soil_slab"
+    },
+    "type=double": {
+      "model": "allesgut:block/vineyard_soil_block"
+    },
+    "type=top": {
+      "model": "allesgut:block/vineyard_soil_slab_top"
+    }
+  }
+}

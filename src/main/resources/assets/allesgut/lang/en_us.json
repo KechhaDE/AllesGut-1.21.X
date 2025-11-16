@@ -4,6 +4,8 @@
 
   "block.allesgut.brewing_barrel_block": "Brewing Barrel",
   "block.allesgut.vineyard_soil_block": "Vineyard Soil",
+  "block.allesgut.vineyard_soil_slab": "Vineyard Soil Slab",
+  "block.allesgut.vineyard_soil_stairs": "Vineyard Soil Stairs",
 
   "itemgroup.allesgut.winemaker_items": "Winemaker Items",
   "itemgroup.allesgut.winemaker_blocks": "Winemaker Blocks"

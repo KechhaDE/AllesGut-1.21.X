@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "allesgut:block/brewing_barrel_side"
+    "all": "allesgut:block/brewing_barrel_block"
   }
 }

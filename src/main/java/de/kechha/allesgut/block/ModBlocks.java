@@ -4,6 +4,8 @@ import de.kechha.allesgut.AllesGut;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -16,14 +18,26 @@ public class ModBlocks {
 
     public static final Block BREWING_BARREL_BLOCK = registerBlock("brewing_barrel_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(4f)
-                    .requiresTool()
+                    .strength(2f)
                     .sounds(BlockSoundGroup.WOOD)));
 
     public static final Block VINEYARD_SOIL_BLOCK = registerBlock("vineyard_soil_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(0.6f)
-                    .sounds(BlockSoundGroup.ROOTED_DIRT)));
+                    .sounds(BlockSoundGroup.GRAVEL)));
+
+    public static final Block VINEYARD_SOIL_SLAB = registerBlock("vineyard_soil_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                        .strength(0.6f)
+                        .sounds(BlockSoundGroup.GRAVEL)));
+
+    public static final Block VINEYARD_SOIL_STAIRS = registerBlock("vineyard_soil_stairs",
+            new StairsBlock(ModBlocks.VINEYARD_SOIL_BLOCK.getDefaultState(), AbstractBlock.Settings.create()
+                    .strength(0.6f)
+                    .sounds(BlockSoundGroup.GRAVEL)));
+
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

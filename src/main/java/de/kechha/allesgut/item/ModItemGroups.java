@@ -28,6 +28,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.VINEYARD_SOIL_BLOCK);
                         entries.add(ModBlocks.BREWING_BARREL_BLOCK);
+                        entries.add(ModBlocks.VINEYARD_SOIL_STAIRS);
+                        entries.add(ModBlocks.VINEYARD_SOIL_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

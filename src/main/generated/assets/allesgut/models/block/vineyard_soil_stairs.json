@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "allesgut:block/vineyard_soil_block",
+    "side": "allesgut:block/vineyard_soil_block",
+    "top": "allesgut:block/vineyard_soil_block"
+  }
+}

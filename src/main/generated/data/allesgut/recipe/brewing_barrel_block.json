@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "allesgut:grape"
+    "G": {
+      "item": "allesgut:red_grape"
     },
-    ".": {
+    "P": {
       "tag": "minecraft:planks"
     },
-    ";": {
+    "S": {
       "tag": "minecraft:wooden_slabs"
     }
   },
-  "pattern" : [
-    ".;.",
-    ".#.",
-    ".;."
+  "pattern": [
+    "PSP",
+    "PGP",
+    "PSP"
   ],
   "result": {
     "count": 1,
