@@ -1,5 +1,8 @@
 package de.kechha.allesgut;
 
+import de.kechha.allesgut.block.ModBlocks;
+import de.kechha.allesgut.item.ModItemGroups;
+import de.kechha.allesgut.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,6 +17,8 @@ public class AllesGut implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Kechha.AllesGut loaded!");
-
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
 	}
 }

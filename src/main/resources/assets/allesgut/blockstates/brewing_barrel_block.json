@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "allesgut:block/brewing_barrel_block"
+    }
+  }
+}

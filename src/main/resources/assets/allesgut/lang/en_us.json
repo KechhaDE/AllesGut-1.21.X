@@ -1,0 +1,10 @@
+{
+  "item.allesgut.grape": "Grape",
+  "item.allesgut.red_grape": "Red Grape",
+
+  "block.allesgut.brewing_barrel_block": "Brewing Barrel",
+  "block.allesgut.vineyard_soil_block": "Vineyard Soil",
+
+  "itemgroup.allesgut.winemaker_items": "Winemaker Items",
+  "itemgroup.allesgut.winemaker_blocks": "Winemaker Blocks"
+}

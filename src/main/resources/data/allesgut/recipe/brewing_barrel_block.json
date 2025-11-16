@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "allesgut:grape"
+    },
+    ".": {
+      "tag": "minecraft:planks"
+    },
+    ";": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern" : [
+    ".;.",
+    ".#.",
+    ".;."
+  ],
+  "result": {
+    "count": 1,
+    "id": "allesgut:brewing_barrel_block"
+  }
+}
